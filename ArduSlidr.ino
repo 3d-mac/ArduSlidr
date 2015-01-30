@@ -5,11 +5,12 @@
   17 Jan 2015
   @dizymac
   http://www.davidmcgahan.co.nz/ArduSlidr
+  
+  Non-AccelStepper library version.
 
 */
 
-#include <AccelStepper.h>
-AccelStepper drive;
+#include <Stepper.h>
 
 const int startButton = 2; // Start button Pin
 int startButtonStatus = 0;
